@@ -8,7 +8,7 @@ const Navbar = () => {
 
     const { openSignIn } = useClerk()
     const { user } = useUser()
-
+    
     const navigate = useNavigate()
 
     const { setShowRecruiterLogin } = useContext(AppContext)
