@@ -4,7 +4,7 @@ const JobCard = ({ job }) => {
 
   const navigate = useNavigate()
 
-  return (
+  return ( 
     <div className='border p-6 shadow rounded'>
       <div className='flex justify-between items-center'>
         <img className='h-8' src={job.companyId.image} alt="" />
